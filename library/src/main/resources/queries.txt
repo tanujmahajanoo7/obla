@@ -1,0 +1,34 @@
+use library_db;
+
+INSERT INTO item (id, genre, is_available, title, type) VALUES
+(101, 'Science Fiction', 1, 'NeonSkies', 'BOOK'),
+(102, 'Fantasy', 0, 'Moonfire', 'BOOK'),
+(103, 'Mystery', 1, 'DeadEnd', 'BOOK'),
+(104, 'Romance', 1, 'FirstLight', 'BOOK'),
+(105, 'Thriller', 0, 'RedZone', 'BOOK'),
+(106, 'Historical Fiction', 1, 'TheCross', 'BOOK'),
+(107, 'Horror', 1, 'TheBasement', 'BOOK'),
+(108, 'Adventure', 0, 'WildHunt', 'BOOK'),
+(109, 'Dystopian', 1, 'Shattered', 'BOOK'),
+(110, 'Comedy', 0, 'OddJobs', 'BOOK');
+
+INSERT INTO item (id, genre, is_available, title, type) VALUES
+(111, 'Lifestyle', 1, 'LifeToday', 'MAGAZINE'),
+(112, 'Technology', 0, 'TechTrends', 'MAGAZINE'),
+(113, 'Health', 1, 'FitWell', 'MAGAZINE'),
+(114, 'Entertainment', 1, 'ScreenTime', 'MAGAZINE'),
+(115, 'Fashion', 0, 'Vogue', 'MAGAZINE'),
+(116, 'Business', 1, 'TheHustle', 'MAGAZINE'),
+(117, 'Science', 1, 'FutureInsights', 'MAGAZINE'),
+(118, 'Sports', 0, 'GameOn', 'MAGAZINE'),
+(119, 'Food', 1, 'Delicious', 'MAGAZINE'),
+(120, 'Travel', 0, 'Wanderlust', 'MAGAZINE');
+
+INSERT INTO `library_db`.`user` 
+(`user_id`, `age`, `borrowed_books`, `borrowed_magazines`, `name`, `subscription_plan`, `transactions_this_month`) 
+VALUES 
+('1', '23', '0', '0', 'John', 'silver', '0'),
+('2', '20', '0', '0', 'bob', 'gold', '0'),
+('3', '22', '0', '0', 'Alice', 'platinum', '0'),
+('4', '16', '0', '0', 'Jack', 'gold', '0');
+
