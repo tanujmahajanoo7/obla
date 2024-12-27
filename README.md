@@ -1,5 +1,5 @@
 # Online Booking Library API #
-## The Project is build using Java SpringBoot and for the database we are using MySql ##
+## The project is build using Java SpringBoot and for the database we are using MySql ##
 - ####  How to setup and run application locally ####
 
 1. Download the zip file
